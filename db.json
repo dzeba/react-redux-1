@@ -6,6 +6,11 @@
       "id": 3
     },
     {
+      "name": "product1",
+      "description": "Huavei",
+      "id": 1
+    },
+    {
       "name": "Xiaomi",
       "description": "Xiaomi",
       "id": 4
@@ -19,6 +24,11 @@
       "name": "samsung",
       "description": "",
       "id": 6
+    },
+    {
+      "name": "product1",
+      "description": "",
+      "id": 7
     }
   ],
   "todos": [
