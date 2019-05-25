@@ -1,0 +1,56 @@
+{
+  "products": [
+    {
+      "name": "Huavei",
+      "description": "Huavei",
+      "id": 3
+    },
+    {
+      "name": "Xiaomi",
+      "description": "Xiaomi",
+      "id": 4
+    },
+    {
+      "name": "Redmi",
+      "description": "Redmi",
+      "id": 5
+    },
+    {
+      "name": "samsung",
+      "description": "",
+      "id": 6
+    }
+  ],
+  "todos": [
+    {
+      "id": "1558023012399-0.4144224649983843",
+      "text": "some",
+      "isDone": false
+    },
+    {
+      "id": "1558643431410-0.48766669193403955",
+      "text": "somegg",
+      "isDone": false
+    },
+    {
+      "id": "1558643437263-0.5530808537522767",
+      "text": "buttee",
+      "isDone": false
+    },
+    {
+      "id": "1558771031846-0.7282351116953645",
+      "text": "some",
+      "isDone": false
+    },
+    {
+      "id": "1558771133296-0.11086410270626113",
+      "text": "sadfas",
+      "isDone": false
+    },
+    {
+      "id": "1558771352921-0.8091632195352652",
+      "text": "sdfds",
+      "isDone": false
+    }
+  ]
+}
