@@ -15,7 +15,6 @@ jobs:
       - restore_cache:
           keys:
             - v1-dependencies-{{ checksum "package-lock.json" }}
-            - v1-dependencies-
 
       - run: npm install
 
@@ -42,6 +41,19 @@ jobs:
       - run: npm run lint
       - run: npm test
 
+  deploy:
+    docker:
+      - image: circleci/node:12.1.0
+
+    working_directory: ~/repo
+
+    steps:
+      - restore_cache:
+          keys:
+            - v1-repo-{{ .Environment.CIRCLE_SHA1 }}
+
+      - run: npm run deploy
+
 workflows:
   version: 2
   test:
@@ -50,3 +62,6 @@ workflows:
       - lint_and_test:
           requires:
             - install
+      - deploy:
+          requires:
+            - lint_and_test
