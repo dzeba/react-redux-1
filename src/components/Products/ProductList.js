@@ -32,20 +32,36 @@ class ProductsList extends React.Component {
     if (this.props.isLoading) return <div>Loading...</div>;
     return (
       <div>
-        <Link className="createNewForm" to={`/products/new`}>
-          Create new
-        </Link>
-        {this.props.list.map(el => (
-          <div key={el.id}>
-            <Link to={`/products/${el.id}`}>{el.name}</Link>
-            <Link to={`/products/${el.id}/edit`}> Edit</Link>
-          </div>
-        ))}
-        <div>
+        <div className="createNewForm__block">
+          <Link className="createNewForm" to={`/products/new`}>
+            Create new
+          </Link>
+        </div>
+        <div className="productList">
+          {this.props.list.map(el => (
+            <div key={el.id} className="productItem">
+              <Link className="productItem__link" to={`/products/${el.id}`}>
+                <div className="productName">
+                  <Link className="productName__link" to={`/products/${el.id}`}>{el.name}</Link>
+                </div>
+                <div className="productImgBlock">
+                  <img className="productImg" src={el.image} alt={el.name}/>
+                </div>
+                <div className="productDescription">{el.description}</div>
+                <div className="productEdit">
+                  <Link to={`/products/${el.id}/edit`}> Edit</Link>
+                </div>
+              </Link>
+            </div>
+          ))}
+        </div>
+        <div className="pagesAll">
           {pages.map(p => (
-            <Link key={p} to={`/products?page=${p}`}>
-              {p}
-            </Link>
+            <div className="pagesOne">
+              <Link key={p} to={`/products?page=${p}`}>
+                {p}
+              </Link>
+            </div>
           ))}
         </div>
       </div>

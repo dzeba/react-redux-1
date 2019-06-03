@@ -25,6 +25,9 @@ class ProductsShow extends React.Component {
         </Link>
         <div>
           <h1>{product.name}</h1>
+          <div>{product.description}</div>
+
+          <img src={product.image} alt={product.name} />
         </div>
         <button onClick={() => deleteProduct(product.id)}>Delete item</button>
       </div>

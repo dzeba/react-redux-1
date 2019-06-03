@@ -24,16 +24,16 @@ function App() {
         <nav>
           <ul className="mainMenu">
             <li className="mainMenu__item">
-              <Link to="/counter">counterr</Link>
+              <Link className="mainMenu__itemLink" to="/counter">counterr</Link>
             </li>
             <li className="mainMenu__item">
-              <Link to="/todo/">todo</Link>
+              <Link className="mainMenu__itemLink" to="/todo/">todo</Link>
             </li>
             <li className="mainMenu__item">
-              <Link to="/products/">products</Link>
+              <Link className="mainMenu__itemLink" to="/products/">products</Link>
             </li>
             <li className="mainMenu__item">
-              <Link to="/login">login</Link>
+              <Link className="mainMenu__itemLink" to="/login">login</Link>
             </li>
           </ul>
         </nav>

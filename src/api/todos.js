@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = process.env.REACT_APP_SERVER_URL;
+const BASE_URL = "http://localhost:3004";
 
 export function getAll() {
   return axios.get(`${BASE_URL}/todos`).then(({ data }) => data);

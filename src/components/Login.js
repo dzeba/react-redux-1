@@ -2,11 +2,12 @@ import React from "react";
 import { connect } from "react-redux";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import { login } from "../ducks/auth";
+import "./Products/ProductForm.css";
 
 function Login({ login }) {
   return (
     <div>
-      <h1>Login</h1>
+      <h1 className="editName">Login</h1>
       <Formik
         initialValues={{ login: "", password: "" }}
         validate={values => {

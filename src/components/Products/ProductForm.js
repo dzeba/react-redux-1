@@ -1,6 +1,7 @@
 import React from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import { withRouter } from "react-router-dom";
+import "./ProductForm.css";
 
 class ProductForm extends React.Component {
   render() {
@@ -37,6 +38,12 @@ class ProductForm extends React.Component {
               <label>description</label>
               <Field type="text" name="description" />
               <ErrorMessage name="description" component="div" />
+            </div>
+
+            <div>
+              <label>image</label>
+              <Field type="text" name="image" />
+              <ErrorMessage name="image" component="div" />
             </div>
 
             <div>

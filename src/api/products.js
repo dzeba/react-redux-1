@@ -1,10 +1,10 @@
 import axios from "axios";
 
-const BASE_URL = process.env.REACT_APP_SERVER_URL;
+const BASE_URL = "http://localhost:3004";
 
 const extractData = response => response.data;
 
-export function getAll(page = 1, limit = 2) {
+export function getAll(page = 1, limit = 8) {
   return axios
     .get(`${BASE_URL}/products?_page=${page}&_limit=${limit}`)
     .then(response => ({

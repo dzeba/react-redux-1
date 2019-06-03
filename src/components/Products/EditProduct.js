@@ -3,6 +3,7 @@ import { fetchProduct, isLoadingSelector } from "../../ducks/products";
 import { saveProduct } from "../../ducks/products";
 import { connect } from "react-redux";
 import ProductForm from "./ProductForm";
+import "./ProductForm.css";
 
 class EditProduct extends React.Component {
   componentDidMount() {
@@ -17,7 +18,7 @@ class EditProduct extends React.Component {
     if (!product) return null;
     return (
       <div>
-        <h1>Edit {product.name}</h1>
+        <h1 className="editName">Edit {product.name}</h1>
         <ProductForm
           product={this.props.product}
           saveProduct={this.props.saveProduct}

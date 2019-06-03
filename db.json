@@ -2,38 +2,123 @@
   "products": [
     {
       "name": "Huavei",
-      "description": "Huavei",
-      "id": 3
+      "description": "Экран (6.3\", IPS, 2340x1080)/ HiSilicon Kirin 710 (2.2 ГГц + 1.7 ГГц)",
+      "id": 3,
+      "image": "https://i2.rozetka.ua/goods/12177868/huawei_p30_lite_4_128gb_iris_purple_images_12177868624.jpg"
     },
     {
       "name": "product1",
-      "description": "Huavei",
-      "id": 1
+      "description": "Экран (6.3\", IPS, 2340x1080)/ HiSilicon Kirin 710 (2.2 ГГц + 1.7 ГГц)",
+      "id": 1,
+      "image": "https://i1.rozetka.ua/goods/7351126/xiaomi_redmi_6a_2_16gb_black_eu_images_7351126596.jpg"
     },
     {
       "name": "Xiaomi",
-      "description": "Xiaomi",
-      "id": 4
+      "description": "Экран (6.3\", IPS, 2340x1080)/ HiSilicon Kirin 710 (2.2 ГГц + 1.7 ГГц)",
+      "id": 4,
+      "image": "https://i2.rozetka.ua/goods/11052552/samsung_galaxy_s10_6_128_gb_black_sm_g973fzkdsek_images_11052552609.jpg"
     },
     {
       "name": "Redmi",
-      "description": "Redmi",
-      "id": 5
+      "description": "Экран (6.3\", IPS, 2340x1080)/ HiSilicon Kirin 710 (2.2 ГГц + 1.7 ГГц)",
+      "id": 5,
+      "image": "https://i1.rozetka.ua/goods/11488209/samsung_sm_a305fzkusek_images_11488209698.jpg"
     },
     {
       "name": "samsung",
-      "description": "",
-      "id": 6
+      "description": "Экран (6.3\", IPS, 2340x1080)/ HiSilicon Kirin 710 (2.2 ГГц + 1.7 ГГц)",
+      "id": 6,
+      "image": "https://i2.rozetka.ua/goods/7926542/huawei_p_smart_plus_black_images_7926542781.jpg"
     },
     {
-      "name": "product1",
-      "description": "",
-      "id": 7
+      "name": "Xiaomi Redmi 7",
+      "description": "Экран (6\", Super AMOLED, 2220x1080)/ Samsung Exynos 7885 (2.2 ГГц)",
+      "id": 7,
+      "image": "https://i2.rozetka.ua/goods/11472151/copy_xiaomi_redmi_7_3_32gb_black_gl_eu_5c99fbc9ee35f_images_11472151172.jpg"
     },
     {
-      "name": "пывп",
-      "description": "",
-      "id": 8
+      "name": "Meizu m3 note",
+      "description": "Экран (6.3\", IPS, 2340x1080)/ HiSilicon Kirin 710 (2.2 ГГц + 1.7 ГГц)",
+      "id": 8,
+      "image": "https://i1.rozetka.ua/goods/3005534/tp_link_neffos_c5a_tp703a21ua_images_3005534015.jpg"
+    },
+    {
+      "name": "Samsung s10+",
+      "description": "Экран (6.3\", IPS, 2340x1080)/ HiSilicon Kirin 710 (2.2 ГГц + 1.7 ГГц)",
+      "image": "https://i2.rozetka.ua/goods/11052630/samsung_galaxy_s10_plus_6_128_gb_black_sm_g975fzkdsek_images_11052630783.jpg",
+      "id": 9
+    },
+    {
+      "name": "Asus",
+      "description": "Экран (6.3\", IPS, 2340x1080)/ HiSilicon Kirin 710 (2.2 ГГц + 1.7 ГГц)",
+      "image": "https://i1.rozetka.ua/goods/4214052/xiaomi_mi_a1_4_32g_gold_eur_images_4214052144.jpg",
+      "id": 10
+    },
+    {
+      "name": "Huawei",
+      "description": "Экран (6.3\", IPS, 2340x1080)/ HiSilicon Kirin 710 (2.2 ГГц + 1.7 ГГц)",
+      "image": "https://i2.rozetka.ua/goods/10039815/asus_90ax01b2_m00760_images_10039815821.jpg",
+      "id": 11
+    },
+    {
+      "name": "Huavei",
+      "description": "Экран (6.3\", IPS, 2340x1080)/ HiSilicon Kirin 710 (2.2 ГГц + 1.7 ГГц)",
+      "id": 12,
+      "image": "https://i2.rozetka.ua/goods/12177868/huawei_p30_lite_4_128gb_iris_purple_images_12177868624.jpg"
+    },
+    {
+      "name": "Xiaomi",
+      "description": "Экран (6.3\", IPS, 2340x1080)/ HiSilicon Kirin 710 (2.2 ГГц + 1.7 ГГц)",
+      "id": 13,
+      "image": "https://i2.rozetka.ua/goods/11052552/samsung_galaxy_s10_6_128_gb_black_sm_g973fzkdsek_images_11052552609.jpg"
+    },
+    {
+      "name": "Redmi",
+      "description": "Экран (6.3\", IPS, 2340x1080)/ HiSilicon Kirin 710 (2.2 ГГц + 1.7 ГГц)",
+      "id": 14,
+      "image": "https://i1.rozetka.ua/goods/11488209/samsung_sm_a305fzkusek_images_11488209698.jpg"
+    },
+    {
+      "name": "samsung",
+      "description": "Экран (6\", Super AMOLED, 2220x1080)/ Samsung Exynos 7885 (2.2 ГГц)",
+      "id": 15,
+      "image": "https://i2.rozetka.ua/goods/7926542/huawei_p_smart_plus_black_images_7926542781.jpg"
+    },
+    {
+      "name": "Xiaomi Redmi 7",
+      "description": "Экран (6\", Super AMOLED, 2220x1080)/ Samsung Exynos 7885 (2.2 ГГц)",
+      "id": 16,
+      "image": "https://i2.rozetka.ua/goods/11472151/copy_xiaomi_redmi_7_3_32gb_black_gl_eu_5c99fbc9ee35f_images_11472151172.jpg"
+    },
+    {
+      "name": "Meizu m3 note",
+      "description": "Экран (6.3\", IPS, 2340x1080)/ HiSilicon Kirin 710 (2.2 ГГц + 1.7 ГГц)",
+      "id": 17,
+      "image": "https://i1.rozetka.ua/goods/3005534/tp_link_neffos_c5a_tp703a21ua_images_3005534015.jpg"
+    },
+    {
+      "name": "Samsung s10+",
+      "description": "Экран (6.3\", IPS, 2340x1080)/ HiSilicon Kirin 710 (2.2 ГГц + 1.7 ГГц)",
+      "image": "https://i2.rozetka.ua/goods/11052630/samsung_galaxy_s10_plus_6_128_gb_black_sm_g975fzkdsek_images_11052630783.jpg",
+      "id": 18
+    },
+    {
+      "name": "Asus",
+      "description": "Экран (6.3\", IPS, 2340x1080)/ HiSilicon Kirin 710 (2.2 ГГц + 1.7 ГГц)",
+      "image": "https://i1.rozetka.ua/goods/4214052/xiaomi_mi_a1_4_32g_gold_eur_images_4214052144.jpg",
+      "id": 19
+    },
+    {
+      "name": "Huaweidfsdf",
+      "description": "Экран (6.3\", IPS, 2340x1080)/ HiSilicon Kirin 710 (2.2 ГГц + 1.7 ГГц)",
+      "image": "https://i2.rozetka.ua/goods/10039815/asus_90ax01b2_m00760_images_10039815821.jpg",
+      "id": 20
+    },
+    {
+      "name": "Meizu",
+      "description": "fsafsaf",
+      "image": "https://i2.rozetka.ua/goods/12177868/huawei_p30_lite_4_128gb_iris_purple_images_12177868624.jpg",
+      "id": 21
     }
   ],
   "todos": [
